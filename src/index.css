@@ -1,6 +1,5 @@
 :root {
   font: 16px / 1 sans-serif;
-  --white: rgb(100%, 100%, 100%);
 }
 
 html {
@@ -10,21 +9,43 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(97%, 97%, 98%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1em;
 }
 
 .navbar-start,
 .navbar-end {
   display: flex;
   flex-direction: row;
-  margin-left: 25em;
+  align-items: center;
   font-weight: bold;
   color: black;
+  margin: 0;
+  padding-right: 2em;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8em;
+.navbar-start {
+  padding-left:1em;
+  gap:0.5em;
+}
+
+.navbar-end {
+    gap: 1em;
+}
+
+.navbar-end h2 {
+  margin: 0; /* the inner h2s inside navbar-end also need this reset */
+}
+
+.navbar-brand {
+  margin-right: 30em;
 }
 
 a {
@@ -40,6 +61,7 @@ a {
   list-style: none;
   background-color: rgb(97%, 97%, 98%);
   padding-top: 2em;
+  margin-right: 2em;
 }
 
 .img-style {
@@ -51,15 +73,8 @@ a {
 }
 
 .cat-info {
+  display:flex;
+  justify-content: center;
   color: black;
-  font-size: 0.5em;
+  font-size: 0.6em;
 }
-
-/* .title-section {
-  font-size:2em;
-  color:black;
-}
-
-.favorite-cats {
-  color:black;
-} */

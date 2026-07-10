@@ -14,17 +14,18 @@ class Nav extends Component {
             </h2>
           </div>
 
-          <h2 class="navbar-start">
-            <a href="https://marscannon.com" class="navbar-item">
-              Portfolio
-            </a>
-          </h2>
-
-          <h2 class="navbar-end">
-            <a href="https://github.com/marscannon42/react-octodex" class="navbar-item">
-              GitHub
-            </a>
-          </h2>
+          <div class="navbar-end">
+            <h2>
+              <a href="https://marscannon.com" class="navbar-item">
+                Portfolio
+              </a>
+            </h2>
+            <h2>
+              <a href="https://github.com/marscannon42/react-octodex" class="navbar-item">
+                GitHub
+              </a>
+            </h2>
+          </div>
         </nav>
       </>
     );
