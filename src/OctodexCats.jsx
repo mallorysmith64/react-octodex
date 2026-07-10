@@ -72,6 +72,10 @@ function OctodexCats() {
 
   return (
     <>
+      <section className="title-section">
+        <h2 className="favorite-cats">My Favorite Octodex Cats</h2>
+      </section>
+
       <ul className="photo-container">
         {Cats.map((cat, key) => {
           return (

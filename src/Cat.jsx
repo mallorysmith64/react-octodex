@@ -4,9 +4,6 @@ class Cat extends Component {
   render() {
     return (
       <>
-      <section className="title-section">
-        <title className="favorite-cats">Favorite Octodex Cats</title>
-      </section>
       <li>
         <img
           className="img-style"

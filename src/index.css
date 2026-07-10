@@ -60,7 +60,6 @@ a {
   flex-wrap: wrap;
   list-style: none;
   background-color: rgb(97%, 97%, 98%);
-  padding-top: 2em;
   margin-right: 2em;
 }
 
@@ -77,4 +76,11 @@ a {
   justify-content: center;
   color: black;
   font-size: 0.6em;
+}
+
+.title-section {
+  display:flex;
+  justify-content: center;
+  font-size:1em;
+  color:black;
 }

@@ -20,6 +20,7 @@ class Nav extends Component {
                 Portfolio
               </a>
             </h2>
+            
             <h2>
               <a href="https://github.com/mallorysmith64" class="navbar-item">
                 GitHub
