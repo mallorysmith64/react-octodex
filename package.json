@@ -49,12 +49,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marscannon42/react-octodex.git"
+    "url": "git+https://github.com/mallorysmith64/react-octodex.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marscannon42/react-octodex/issues"
+    "url": "https://github.com/mallorysmith64/react-octodex/issues"
   },
-  "homepage": "https://github.com/marscannon42/react-octodex#readme"
+  "homepage": "."
 }
