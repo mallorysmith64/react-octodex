@@ -68,6 +68,49 @@ function OctodexCats() {
       imageUrl: dinotocat,
       imageAlt: "Dinotocat octodex cat",
     },
+    // additional cats pulled from octodex.github.com
+    {
+      number: "#104:",
+      name: "Labtocat",
+      imageUrl: "https://octodex.github.com/images/labtocat.png",
+      imageAlt: "Labtocat octodex cat",
+    },
+    {
+      number: "#78:",
+      name: "Droidtocat",
+      imageUrl: "https://octodex.github.com/images/droidtocat.png",
+      imageAlt: "Droidtocat octodex cat",
+    },
+    {
+      number: "#71:",
+      name: "Electrocat",
+      imageUrl: "https://octodex.github.com/images/electrocat.png",
+      imageAlt: "Electrocat octodex cat",
+    },
+    {
+      number: "#80:",
+      name: "Homercat",
+      imageUrl: "https://octodex.github.com/images/homercat.png",
+      imageAlt: "Homercat octodex cat",
+    },
+    {
+      number: "#66:",
+      name: "Dojocat",
+      imageUrl: "https://octodex.github.com/images/dojocat.jpg",
+      imageAlt: "Dojocat octodex cat",
+    },
+    {
+      number: "#116:",
+      name: "Jetpacktocat",
+      imageUrl: "https://octodex.github.com/images/jetpacktocat.png",
+      imageAlt: "Jetpacktocat octodex cat",
+    },
+    {
+      number: "#84:",
+      name: "Stormtroopocat",
+      imageUrl: "https://octodex.github.com/images/stormtroopocat.png",
+      imageAlt: "Stormtroopocat octodex cat",
+    },
   ];
 
   return (
@@ -77,14 +120,14 @@ function OctodexCats() {
       </section>
 
       <ul className="photo-container">
-        {Cats.map((cat, key) => {
+        {Cats.map((cat) => {
           return (
             <Cat
               number={cat.number}
               name={cat.name}
               imageUrl={cat.imageUrl}
               imageAlt={cat.imageAlt}
-              key={key}
+              key={cat.number}
             />
           );
         })}

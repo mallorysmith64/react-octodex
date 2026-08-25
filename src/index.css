@@ -44,31 +44,41 @@ body {
   margin: 0; /* the inner h2s inside navbar-end also need this reset */
 }
 
-.navbar-brand {
-  margin-right: 30em;
-}
-
 a {
   text-decoration: none !important;
   color: inherit;
 }
 
 .photo-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
   list-style: none;
   background-color: rgb(97%, 97%, 98%);
-  margin-right: 2em;
+  margin: 0 2em;
+  padding: 0 0 2em 0;
+}
+
+@media (max-width: 900px) {
+  .photo-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .photo-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .img-style {
   display: flex;
   height: 15em;
+  width: 100%;
+  object-fit: cover;
   border-radius: 2em;
   border: 1px #e1e4e8 solid !important;
-  background-color: var(--white);
+  background-color: white;
 }
 
 .cat-info {
