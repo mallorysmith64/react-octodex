@@ -31,17 +31,17 @@ function OctodexCats() {
       number: "#139:",
       name: "Boxertocat",
       imageUrl: boxertocat,
-      imageAlt: "Hula Loop Cat octodex cat",
+      imageAlt: "Boxertocat octodex cat",
     },
     {
       number: "#137:",
-      name: "Hula Loop Cat",
+      name: "Hulaloopcat",
       imageUrl: hula_loop_cat,
       imageAlt: "Hula Loop Cat octodex cat",
     },
     {
       number: "#140:",
-      name: "Puddle Jumper Cat",
+      name: "Puddlejumpercat",
       imageUrl: puddle_jumper_cat,
       imageAlt: "Puddle Jumper Cat octodex cat",
     },
@@ -96,9 +96,9 @@ function OctodexCats() {
     },
     {
       number: "#68:",
-      name: "Cow Snow Cat",
+      name: "Cowsnowcat",
       imageUrl: snowoctocat,
-      imageAlt: "Cow Snow Cat octodex cat",
+      imageAlt: "Cowsnowcat octodex cat",
     },
     {
       number: "#66:",
