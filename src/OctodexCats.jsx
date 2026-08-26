@@ -8,6 +8,13 @@ import universetocat from "./images/universetocat.png";
 import surftocat from "./images/surftocat.png";
 import vinyltocat from "./images/vinyltocat.png";
 import dinotocat from "./images/dinotocat.png";
+import labtocat from "./images/labtocat.png";
+import droidtocat from "./images/droidtocat.png";
+import electrocat from "./images/electrocat.png";
+import snowoctocat from "./images/snowoctocat.png";
+import dojocat from "./images/dojocat.jpg";
+import jetpacktocat from "./images/jetpacktocat.png";
+import stormtroopocat from "./images/stormtroopocat.png";
 
 import Cat from "./Cat";
 
@@ -72,43 +79,43 @@ function OctodexCats() {
     {
       number: "#104:",
       name: "Labtocat",
-      imageUrl: "https://octodex.github.com/images/labtocat.png",
+      imageUrl: labtocat,
       imageAlt: "Labtocat octodex cat",
     },
     {
       number: "#78:",
       name: "Droidtocat",
-      imageUrl: "https://octodex.github.com/images/droidtocat.png",
+      imageUrl: droidtocat,
       imageAlt: "Droidtocat octodex cat",
     },
     {
       number: "#71:",
       name: "Electrocat",
-      imageUrl: "https://octodex.github.com/images/electrocat.png",
+      imageUrl: electrocat,
       imageAlt: "Electrocat octodex cat",
     },
     {
-      number: "#80:",
-      name: "Homercat",
-      imageUrl: "https://octodex.github.com/images/homercat.png",
-      imageAlt: "Homercat octodex cat",
+      number: "#68:",
+      name: "Cow Snow Cat",
+      imageUrl: snowoctocat,
+      imageAlt: "Cow Snow Cat octodex cat",
     },
     {
       number: "#66:",
       name: "Dojocat",
-      imageUrl: "https://octodex.github.com/images/dojocat.jpg",
+      imageUrl: dojocat,
       imageAlt: "Dojocat octodex cat",
     },
     {
       number: "#116:",
       name: "Jetpacktocat",
-      imageUrl: "https://octodex.github.com/images/jetpacktocat.png",
+      imageUrl: jetpacktocat,
       imageAlt: "Jetpacktocat octodex cat",
     },
     {
       number: "#84:",
       name: "Stormtroopocat",
-      imageUrl: "https://octodex.github.com/images/stormtroopocat.png",
+      imageUrl: stormtroopocat,
       imageAlt: "Stormtroopocat octodex cat",
     },
   ];
